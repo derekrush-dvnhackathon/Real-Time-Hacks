@@ -13,6 +13,7 @@ using FracViz.WebApi.DataAccess;
 
 namespace FracViz.WebApi.Controllers
 {
+    //[RoutePrefix("api/appUser")]
     public class AppUsersController : ApiController
     {
         private FracVizDbContext db = new FracVizDbContext();

@@ -13,6 +13,7 @@ using FracViz.WebApi.DataAccess;
 
 namespace FracViz.WebApi.Controllers
 {
+    //[RoutePrefix("api/thresholds")]
     public class ThresholdsController : ApiController
     {
         private FracVizDbContext db = new FracVizDbContext();

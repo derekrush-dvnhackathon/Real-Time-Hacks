@@ -13,6 +13,7 @@ using FracViz.WebApi.DataAccess;
 
 namespace FracViz.WebApi.Controllers
 {
+    //[RoutePrefix("api/costStructureItems")]
     public class CostStructureItemsController : ApiController
     {
         private FracVizDbContext db = new FracVizDbContext();

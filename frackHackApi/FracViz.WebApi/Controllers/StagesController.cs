@@ -13,6 +13,7 @@ using FracViz.WebApi.DataAccess;
 
 namespace FracViz.WebApi.Controllers
 {
+    //[RoutePrefix("api/stages")]
     public class StagesController : ApiController
     {
         private FracVizDbContext db = new FracVizDbContext();

@@ -13,6 +13,7 @@ using FracViz.WebApi.DataAccess;
 
 namespace FracViz.WebApi.Controllers
 {
+    //[RoutePrefix("api/jobs")]
     public class JobsController : ApiController
     {
         private FracVizDbContext db = new FracVizDbContext();

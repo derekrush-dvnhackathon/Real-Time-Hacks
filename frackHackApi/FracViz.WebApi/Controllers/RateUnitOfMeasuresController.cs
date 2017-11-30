@@ -13,6 +13,7 @@ using FracViz.WebApi.DataAccess;
 
 namespace FracViz.WebApi.Controllers
 {
+    //[RoutePrefix("api/rateUnitsOfMeasure")]
     public class RateUnitOfMeasuresController : ApiController
     {
         private FracVizDbContext db = new FracVizDbContext();

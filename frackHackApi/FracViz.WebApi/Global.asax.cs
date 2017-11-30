@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
+using FracViz.WebApi.AppStartup;
 
 namespace FracViz.WebApi
 {
@@ -11,6 +12,7 @@ namespace FracViz.WebApi
     {
         protected void Application_Start()
         {
+            new Bootstrap().Start(GlobalConfiguration.Configuration);
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
